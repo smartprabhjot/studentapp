@@ -38,31 +38,18 @@
         android:text="Student app is designed to help students to set goals and organize their goals."
         android:textSize="18sp"
         tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="48dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="302dp"
-        android:layout_height="98dp"
-        android:layout_marginTop="48dp"
-        android:text="Student app is designed to help students to set goals and organize their goals."
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="56dp" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="294dp"
         android:layout_height="95dp"
-        android:layout_marginTop="16dp"
         android:text="- You can login to your account using email and password that you created while signin up."
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        tools:layout_editor_absoluteY="154dp" />
 
     <Button
         android:id="@+id/homeHelp"
